@@ -6,6 +6,7 @@ import styled from '@emotion/styled';
 import BackgroundImage from 'gatsby-background-image';
 import heroCSS from '../css/hero.module.css';
 import Banner from '../components/Banner';
+import EstatesList from '../components/EstatesList';
 
 const ImageBackground = styled(BackgroundImage)`
     height: 600px;
@@ -45,6 +46,8 @@ const Index = () => {
             </main>
 
             <Banner/>
+
+            <EstatesList/>
 
         </Layout> 
         

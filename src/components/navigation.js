@@ -32,7 +32,7 @@ const Navigation = () => {
     return ( 
         <Nav>
             <NavLink to={'/'} activeClassName='current'>Home</NavLink>
-            <NavLink to={'/about'} activeClassName='current'>About us</NavLink>
+            <NavLink to={'/about-us'} activeClassName='current'>About us</NavLink>
             <NavLink to={'/estates'} activeClassName='current'>Estates</NavLink>
         </Nav>
      );
